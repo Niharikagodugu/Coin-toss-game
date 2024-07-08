@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.coin-image {
+  width: 150px;
+  height: 150px;
+}
+.game-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 40px;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #a35200;
+}
+.sub-heading {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 12px;
+  margin-top: -10px;
+}
+.toss-button {
+  outline: none;
+  border: none;
+  background-color: #f9d423;
+  color: #a35200;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+}
+.counters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.count{
+  padding: 10px;
+}
